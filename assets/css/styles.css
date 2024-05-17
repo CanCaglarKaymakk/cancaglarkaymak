@@ -428,6 +428,14 @@ img {
   justify-content: center;
 }
 
+/*==================== GALLERY ====================*/
+.gallery__img {
+  width: 200px;
+  border-radius: .5rem;
+  justify-self: center;
+  align-self: center;
+}
+
 /*==================== SKILLS ====================*/
 .skills__container {
   row-gap: 0;
@@ -1132,6 +1140,9 @@ img {
     column-gap: 5rem;
   }
   .about__img {
+    width: 350px;
+  }
+  .gallery__img {
     width: 350px;
   }
   .about__description {

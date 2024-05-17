@@ -13,6 +13,9 @@
         <!--==================== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!--==================== LIGHTBOX ==========-->
+        <link rel="stylesheet" href="assets/css/lightbox.css">
+
         <title>Can Çağlar Kaymak Kişisel Websitesi</title>
     </head>
     <body>
@@ -32,6 +35,12 @@
                         <li class="nav__item">
                             <a href="#about" class="nav__link">
                                 <i class="uil uil-user nav__icon"></i> Hakkımda
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#gallery" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Galeri
                             </a>
                         </li>
 
@@ -175,6 +184,62 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <!--==================== RESUME ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Özgeçmiş</h2>
+                <span class="section__subtitle">Pdf</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__sections">
+                        <!--=============== QUALIFICATION CONTENT 1 ===============-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+
+                                <iframe src="assets\pdf\Can-Cv.pdf" height="600px;" width="400px"></iframe>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== GALLERY ====================-->
+            <section class="gallery section" id="gallery">
+                <h2 class="section__title">Galeri</h2>
+                <span class="section__subtitle">Resimler</span>
+
+                <div class="about__container container grid">
+
+                    <!--==================== tek resim hücresi - resimler buraya konulacak ====================-->
+                    <a href="assets/img/yarisma1.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma1.png" alt="" class="gallery__img">
+                    </a>
+                    <!--==================== tek resim hücresi - resimler buraya konulacak ====================-->
+
+                    <a href="assets/img/yarisma2.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma2.png" alt="" class="gallery__img">
+                    </a>
+
+                    <a href="assets/img/yarisma3.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma3.png" alt="" class="gallery__img">
+                    </a>
+
+                    <a href="assets/img/yarisma4.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma4.png" alt="" class="gallery__img">
+                    </a>
+
+                    <a href="assets/img/yarisma5.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma5.png" alt="" class="gallery__img">
+                    </a>
+
+                    <a href="assets/img/yarisma6.png" data-lightbox="models" data-title="Resim1">
+                        <img src="assets/img/yarisma6.png" alt="" class="gallery__img">
+                    </a>
+
                 </div>
             </section>
 
@@ -811,5 +876,8 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+
+        <!--==================== LIGHTBOX JS ====================-->
+        <script src="assets/js/lightbox-plus-jquery.js"></script>
     </body>
 </html>
